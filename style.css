@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Open+Sans:wght@400;600;700;800&display=swap');
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --body-bg: #192229;
+  --container-bg:#212E36;
+  --border-dark: #32414B;
+  --primary-color: #1783D4;
+  --text-cl: #EFF3F5;
+}
+
+body {
+  background-color: var(--body-bg);
+  color: var(--text-cl);
+  font-family: 'Lato', sans-serif;  
+}
+
+p {
+  line-height: 1.4rem;
+}
+
+.container {
+  max-width: 85%;
+  margin: 0 auto;
+  background-color: var(--container-bg);
+  padding: 10px;
+  border: 1px solid var(--border-dark);
+}
+
+
+
+
+/* ---------------- */
+/**  margins tops  */
+/* ---------------- */
+
+.mt-1 {
+  margin-top: 0.625rem;
+}
+
+.mt-2 {
+  margin-top: 1.25rem;
+}
+
+.mt-3 {
+  margin-top: 1.875rem;
+}
+
+.mt-4 {
+  margin-top: 2.5rem;
+}
+
+.mt-5 {
+  margin-top: 3.125rem;
+}
+
+
+/* ---------------- */
+/**  display flex  */
+/* ---------------- */
+
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+
+/* ---------------- */
+/**  buttons  */
+/* ---------------- */
+
+.btn {
+  display: inline-block;
+  padding: 8px 15px;
+  border: none;
+  border-radius: .25rem;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  color: var(--text-cl);
+}
+
+
+/* ---------------- */
+/**  hidden  */
+/* ---------------- */
+
+
+.d-none {
+  display: none;
+}
